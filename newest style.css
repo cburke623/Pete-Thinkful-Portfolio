@@ -94,3 +94,7 @@ a:link, a:visited {
 a:link:active, a:visited:active {
   color: (f77f00);
 }
+  
+footer p {
+  text-align: center;
+  width: 100 %; } 
