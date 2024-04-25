@@ -2,24 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
-    color: #0d0d0c;
+  color: #eae2b7;
     margin: 0;
     background-color: #eae2b7;
     text-align: center;
-    padding: 50px 0;
+    font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50 px 0;
     color: d62828;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    padding: 40 px;
+    font-size: 20 px;
     font-weight: 100;
     text-transform: capitalize;
-  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
-}
-
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -28,15 +21,24 @@ h1 {
     text-transform: uppercase;
     color: #bababa;
     font-family: "Playfair Display", Times, serif;
-    margin-bottom: 29px;
+    margin-bottom: 29 px;
+    align-items: center;
 }
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
 h2 {
     text-align: center;
     text-transform: uppercase;
     color: #bababa;
     font-family: "Playfair Display", Times, serif;
-    margin-bottom: 70px;
+    margin-bottom: 70 px;
+    align-items: center;
+
 }
 
 h3 {
@@ -44,16 +46,17 @@ h3 {
     text-transform: uppercase;
     color: #bababa;
     font-family: "Playfair Display", Times, serif;
-    margin-bottom: 29px;
+    margin-bottom: 29 px;
+    align-items: center;
 }
 
 article {
-  padding: 50px 0;
+  padding: 50 px 0;
 }
 
 article div {
   text-align: center;
-  width: 100%;
+  width: 100 %;
 }
 
 p {
@@ -63,21 +66,39 @@ p {
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
-  width: 600px;
+  width: 600 px;
 }
 
 img {
-  width: 100%;
-  max-width: 200px;
+  width: 100 %;
+  max-width: 200 px;
   height: auto;
 }
 
 hr {
-  border: 2px solid black;
+  border: 2 px solid black;
 }
 
-/* Add your solution below */
+/* Add your solution below *
 
-.image-circle {border-radius: 50%;
-  border: 2px solid black;
+{
+  border: 2 px solid black;
+.image-circle {border-radius: 50 %;
+ background solidcolor: 003049
 }
+
+  
+a:link, a:visited {
+  color: (d62828);
+  text-decoration: underline;
+  cursor:;
+}
+
+a:link:active, a:visited:active {
+  color: (f77f00);
+}
+  
+footer p {
+  text-align: center;
+  width: 100 %; } 
+
