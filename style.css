@@ -19,7 +19,6 @@ body {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    color: #f77f00;
     font-family: "Playfair Display", Times, serif;
     margin-bottom: 29px;
     align-items: center;
@@ -28,7 +27,6 @@ h1 {
 h2 {
     text-align: center;
     text-transform: uppercase;
-    color: #f77f00;
     font-family: "Playfair Display", Times, serif;
     margin-bottom: 70px;
     align-items: center;
