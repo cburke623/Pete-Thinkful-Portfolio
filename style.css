@@ -83,15 +83,18 @@ hr {
     justify-content: space-between;
     align-items: center;
   }
+a {
 
-a:link, a:visited {
-  color: (d62828);
-  text-decoration: underline;
-  cursor:;
+  color: #d62828;
+
+  
+
 }
 
-a:link:active, a:visited:active {
-  color: (f77f00);
+a:hover {
+
+  color: #f77f00;
+
 }
   
 footer p {
